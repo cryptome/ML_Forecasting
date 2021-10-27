@@ -3,11 +3,7 @@ Time series and regression analysis for Yen Futures.
 
 # A Yen for the Future
 
-<<<<<<< HEAD
-![](C:\Users\chemi\Desktop\ASU Fintech Bootcamp\Machine Learning HW\images\Future Yen.png)
-=======
-![Yen_Futures](images/Future Yen.png)
->>>>>>> e6ff58e (Update README.md)
+![](images\Future Yen.png)
 
 
 
@@ -25,11 +21,7 @@ ____
 
 Historical Yen-Dollar futures contract data is loaded onto the Jupyter Notebook. 'Settle' prices are plotted to note any short and long term patterns.
 
-<<<<<<< HEAD
-![](C:\Users\chemi\Desktop\ASU Fintech Bootcamp\Machine Learning HW\images\Yen Futures Settle Prices.png)
-=======
-![Yen Futures Settle Prices](images/Yen Futures Settle Prices.png) 
->>>>>>> e6ff58e (Update README.md)
+![](images\Yen Futures Settle Prices.png)
 
 - In the short term, the Japanese Yen vs US Dollar is quite volatile. 
 - In the long term, the Yen has put in consistent higher lows and has ultimately gained value against the Dollar over the past 3 decades.
@@ -40,50 +32,23 @@ ____
 
 A Hodrick-Prescott Filter is applied to decompose the 'Settle' price into a trend and noise. Below the 'Settle' price is plotted alongside the 'Trend' in the first image, and the second image shows a plot of the 'Noise'.
 
-<<<<<<< HEAD
-![](C:\Users\chemi\Desktop\ASU Fintech Bootcamp\Machine Learning HW\images\Settle vs Trend.png)
 
-![](C:\Users\chemi\Desktop\ASU Fintech Bootcamp\Machine Learning HW\images\Settle Noise.png)
-=======
-![Settle vs Trend](images/Settle vs Trend.png)
+![](images\Settle vs Trend.png)
+
+![](images\Settle Noise.png)
 
 
 
-![Settle Noise](images/Settle Noise.png)
->>>>>>> e6ff58e (Update README.md)
 
 
-
-# Forecasting Returns using an ARMA Model
-
-<<<<<<< HEAD
-An ARMA model is used to forecast returns - however the model is not a good fit as the P values are all well above the 0.05 threshold.
-
-![](C:\Users\chemi\Desktop\ASU Fintech Bootcamp\Machine Learning HW\images\ARMA 5 Day Forecast.png)
-
-# Forecasting the Settle Price using an ARIMA Model
-
-An ARIMA model is used to forecast the 'Settle Price' - however the model is not a good fit as the P values are also all well above the 0.05 threshold.
-
-![](C:\Users\chemi\Desktop\ASU Fintech Bootcamp\Machine Learning HW\images\ARIMA 5 Day Forecast.png)
-
-# Volatility Forecasting with GARCH
-
-Rather than predicting returns, a GARCH model is used to forecast near-term volatility of Japanese Yen futures returns. Being able to accurately predict volatility is very useful in trading of derivatives, and/or to quantify maximum losses. This is a good model to utilize as the P values conform to our standard of below 0.05.
-
-![](C:\Users\chemi\Desktop\ASU Fintech Bootcamp\Machine Learning HW\images\GARCH 5 Day Forecast.png)
-
-# Conclusions
-=======
-___
 
 An ARMA model is used to forecast returns - however the model is not a good fit as the P values are all well above the 0.05 threshold.
 
-![ARMA](images/ARMA 5 Day Forecast.png)
+![](images\ARMA 5 Day Forecast.png)
 
 # Forecasting the Settle Price using an ARIMA Model
 
-___
+____
 
 An ARIMA model is used to forecast the 'Settle Price' - however the model is not a good fit as the P values are also all well above the 0.05 threshold.
 
@@ -91,16 +56,41 @@ An ARIMA model is used to forecast the 'Settle Price' - however the model is not
 
 # Volatility Forecasting with GARCH
 
+____
+
+Rather than predicting returns, a GARCH model is used to forecast near-term volatility of Japanese Yen futures returns. Being able to accurately predict volatility is very useful in trading of derivatives, and/or to quantify maximum losses. This is a good model to utilize as the P values conform to our standard of below 0.05.
+
+![](images\GARCH 5 Day Forecast.png)
+
+# Conclusions
+
+___
+
+An ARMA model is used to forecast returns - however the model is not a good fit as the P values are all well above the 0.05 threshold.
+
+![](images\ARMA 5 Day Forecast.png)
+
+# Forecasting the Settle Price using an ARIMA Model
+
+___
+
+An ARIMA model is used to forecast the 'Settle Price' - however the model is not a good fit as the P values are also all well above the 0.05 threshold.
+
+![](images\ARiMA 5 Day Forecast.png)
+
+# Volatility Forecasting with GARCH
+
 ___
 
 Rather than predicting returns, a GARCH model is used to forecast near-term volatility of Japanese Yen futures returns. Being able to accurately predict volatility is very useful in trading of derivatives, and/or to quantify maximum losses. This is a good model to utilize as the P values conform to our standard of below 0.05.
 
-![GARCH](images\GARCH 5 Day Forecast.png)
+![](images\GARCH 5 Day Forecast.png)
+
+
 
 ## Conclusions
 
-___
->>>>>>> e6ff58e (Update README.md)
+____
 
 - Based on this time series analysis, I would be inclined to buy Yen now. As the saying goes: The trend is your friend!
 - The risk of the Yen is expected to increase as time goes on.
@@ -108,14 +98,9 @@ ___
 
 # Linear Regression Forecasting
 
-<<<<<<< HEAD
-Using the SKLearn linear regression model to predict Yen futures ("settle") returns with *lagged* Yen futures returns. Here we note the 'out-of-sample' data has a lower RMSE, however the plots show the Settle price is actually higher than predicted.
-
-![](C:\Users\chemi\Desktop\ASU Fintech Bootcamp\Machine Learning HW\images\Linear Regression Model.png)
-=======
-___
+_____
 
 Using the SKLearn linear regression model to predict Yen futures ("settle") returns with *lagged* Yen futures returns. Here we note the 'out-of-sample' data has a lower RMSE, however the plots show the Settle price is actually higher than predicted.
 
-![Linear Regression](images\Linear Regression Model.png)
->>>>>>> e6ff58e (Update README.md)
+![](images\Linear Regression Model.png)
+
